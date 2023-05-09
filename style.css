@@ -29,6 +29,7 @@ ul {
   font-size: 15px;
   line-height: 20px;
   color: #344563;
+  margin-right: 16px;
 }
 
 .logo {
@@ -38,4 +39,46 @@ ul {
   color: #6070ff !important;
   transform: rotateY(360deg);
   transition: all 0.5s ease-in-out;
+}
+
+.top-section {
+  /* padding-top: 114px; */
+  min-height: 92vh;
+  /* row-gap: 12px; */
+  background-image: url(img/Header\ bg@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 0 24px 24px; */
+  border-bottom-left-radius: 88px;
+  background-color: #ffff;
+  margin-bottom: 112px;
+}
+
+.intro {
+  color: #172b4d;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  flex-direction: column;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+
+.intro-sub {
+  font-weight: 400;
+  color: #344563;
+  font-size: 20px;
+  line-height: 28px;
+  height: 98px;
+}
+
+.socials-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-transform: uppercase;
+  margin-bottom: 14px;
 }
