@@ -14,6 +14,10 @@ ul {
   list-style: none;
 }
 
+button {
+  transition: all 1s ease-in-out;
+}
+
 .navbar {
   padding: 24px 155px;
 }
@@ -44,11 +48,13 @@ ul {
 .top-section {
   /* padding-top: 114px; */
   min-height: 92vh;
+
   /* row-gap: 12px; */
   background-image: url(img/Header\ bg@2x.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   /* padding: 0 24px 24px; */
   border-bottom-left-radius: 88px;
   background-color: #ffff;
@@ -92,38 +98,58 @@ ul {
 .tonic {
   padding: 28px 16px;
   border-radius: 16px;
-  row-gap: 12px;
+  margin-bottom: 142px;
+}
+
+.tonic:hover {
+  border: 2px solid #a7aeff;
+  cursor: pointer;
+}
+
+.details {
+  padding: 24px;
 }
 
 .works-header {
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
+  margin-bottom: 21px;
+}
+
+.header-sub,
+.main-header {
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .header-sub {
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
   color: #7a869a;
-  justify-content: left;
-  width: 100%;
-  column-gap: 12px;
+  padding: 0 !important;
+  margin-bottom: 21px;
+}
+
+.header-sub li {
+  padding-right: 12px;
 }
 
 .main-header {
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
   color: #344563;
+  font-weight: 600;
 }
 
 .works-text {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-bottom: 24px;
+}
+
+.works-stack {
+  padding-left: 1rem !important;
+  margin-bottom: 42px !important;
 }
 
 .works-stack li {
