@@ -82,3 +82,15 @@ ul {
   text-transform: uppercase;
   margin-bottom: 14px;
 }
+
+.works {
+  row-gap: 88px;
+  margin-top: 114px;
+  padding: 0 24px;
+}
+
+.tonic {
+  padding: 28px 16px;
+  border-radius: 16px;
+  row-gap: 12px;
+}
